@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: left;
+    padding: 15px;
+}
+
+header h2 {
+    padding-left: 30px;
+    font-size: 50px;
+}
+
+.footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.ads-section {
+    display: block; 
+    flex-wrap: wrap;
+}
+
+.ads-category {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #0b77eb;
+}
+
+.blue-background {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.ad-card {
+    flex: 1;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: flex;
+}
+
+.ad-image {
+    flex: 1;
+    justify-content: center;
+    padding-left: 10px;
+
+}
+
+.ad-details {
+    flex: 2;
+    padding-left: 0px;
+}
+
+.ad-price {
+    flex: 1;
+    text-align: right;
+    padding-right: 10px;
+}
